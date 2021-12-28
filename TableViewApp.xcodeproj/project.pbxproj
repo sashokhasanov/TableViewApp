@@ -14,6 +14,9 @@
 		2D99F3F9277B035F00A6EB78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D99F3F7277B035F00A6EB78 /* LaunchScreen.storyboard */; };
 		2D99F401277B05D700A6EB78 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D99F400277B05D700A6EB78 /* DataManager.swift */; };
 		2D99F403277B0A1900A6EB78 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D99F402277B0A1900A6EB78 /* Person.swift */; };
+		2D99F407277B150900A6EB78 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D99F406277B150900A6EB78 /* MainTabBarController.swift */; };
+		2D99F409277B15FB00A6EB78 /* PlainListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D99F408277B15FB00A6EB78 /* PlainListViewController.swift */; };
+		2D99F40B277B168C00A6EB78 /* SectionedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D99F40A277B168C00A6EB78 /* SectionedListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		2D99F3FA277B035F00A6EB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D99F400277B05D700A6EB78 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		2D99F402277B0A1900A6EB78 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		2D99F406277B150900A6EB78 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		2D99F408277B15FB00A6EB78 /* PlainListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainListViewController.swift; sourceTree = "<group>"; };
+		2D99F40A277B168C00A6EB78 /* SectionedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionedListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				2D99F3EC277B035700A6EB78 /* AppDelegate.swift */,
 				2D99F3EE277B035700A6EB78 /* SceneDelegate.swift */,
 				2D99F3F2277B035700A6EB78 /* Main.storyboard */,
+				2D99F406277B150900A6EB78 /* MainTabBarController.swift */,
+				2D99F408277B15FB00A6EB78 /* PlainListViewController.swift */,
+				2D99F40A277B168C00A6EB78 /* SectionedListViewController.swift */,
 				2D99F3F5277B035F00A6EB78 /* Assets.xcassets */,
 				2D99F3F7277B035F00A6EB78 /* LaunchScreen.storyboard */,
 				2D99F3FA277B035F00A6EB78 /* Info.plist */,
@@ -143,7 +152,10 @@
 			files = (
 				2D99F3ED277B035700A6EB78 /* AppDelegate.swift in Sources */,
 				2D99F401277B05D700A6EB78 /* DataManager.swift in Sources */,
+				2D99F407277B150900A6EB78 /* MainTabBarController.swift in Sources */,
+				2D99F409277B15FB00A6EB78 /* PlainListViewController.swift in Sources */,
 				2D99F403277B0A1900A6EB78 /* Person.swift in Sources */,
+				2D99F40B277B168C00A6EB78 /* SectionedListViewController.swift in Sources */,
 				2D99F3EF277B035700A6EB78 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
