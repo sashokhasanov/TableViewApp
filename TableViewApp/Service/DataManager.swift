@@ -8,7 +8,6 @@
 import Foundation
 
 class DataManager {
-    
     static let instance = DataManager()
     
     let names = ["Jonh", "Mike", "Matt", "David",
@@ -26,5 +25,4 @@ class DataManager {
                   "ideguy@sbcglobal.net", "houle@aol.com", "koudas@optonline.net", "mpiotr@live.com"]
     
     private init() {}
-    
 }

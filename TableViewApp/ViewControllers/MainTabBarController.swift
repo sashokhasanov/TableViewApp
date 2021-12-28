@@ -22,7 +22,6 @@ class MainTabBarController: UITabBarController {
             } else if let sectionedListController = tabController as? SectionedListViewController {
                 sectionedListController.persons = persons
             }
-            
         }
     }
 }
