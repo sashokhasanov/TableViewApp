@@ -13,6 +13,10 @@ struct Person {
     let phone: String
     let email: String
     
+    var fullName: String {
+        "\(name) \(surname)"
+    }
+    
     static func getPersonsList() -> [Person] {
 
         let shuffledNames = DataManager.instance.names.shuffled()
