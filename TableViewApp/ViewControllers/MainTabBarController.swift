@@ -13,7 +13,10 @@ class MainTabBarController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        passDataToControllers()
+    }
+    
+    private func passDataToControllers() {
         for viewController in viewControllers ?? [] {
             let tabController = (viewController as? UINavigationController)?.topViewController
             
